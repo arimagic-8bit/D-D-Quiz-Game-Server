@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 //const MongoStore = require("connect-mongo")(session);
 require("dotenv").config();
 
-const indexRouter = require("./routes/index");
-const usersRouter = require("./routes/users");
+const apiRouter = require("./routes/api");
+//const usersRouter = require("./routes/users");
 
 // MONGOOSE CONNECTION
 mongoose
@@ -32,7 +32,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 // ROUTER MIDDLEWARE
-app.use("/api", indexRouter);
+app.use("/api", apiRouter);
 //app.use("/users", usersRouter);
 
 // ROUTE FOR SERVING REACT APP (index.html)
