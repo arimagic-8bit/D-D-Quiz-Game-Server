@@ -111,6 +111,13 @@ const question = [
     correctAnswer: 1,
     points: 10,
   },
+  {
+    question: 'Does the second benefit of Crossbow Expert feat helps ranged spell attacks?',
+    picture: '',
+    answers: ['Yes', 'Only for bullet/ammo enchanted with a spell (e.g. Flame Arrows spell', 'No, it\'s\],
+    correctAnswer: ,
+    points:
+  }
 ];
 
 mongoose
