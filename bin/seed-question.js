@@ -112,12 +112,120 @@ const question = [
     points: 10,
   },
   {
-    question: 'Does the second benefit of Crossbow Expert feat helps ranged spell attacks?',
-    picture: '',
-    answers: ['Yes', 'Only for bullet/ammo enchanted with a spell (e.g. Flame Arrows spell', 'No, it\'s\],
-    correctAnswer: ,
-    points:
-  }
+    question:
+      "Does the second benefit of Crossbow Expert feat helps ranged spell attacks?",
+    picture: "",
+    answers: [
+      "Yes",
+      "Only for bullet/ammo enchanted with a spell (e.g. Flame Arrows spell",
+      "No, it's intended for only ranged weapons",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question:
+      "Does multiple instances of resistance that affect the same damage type become immunity?",
+    picture: "",
+    answers: [
+      "Nope",
+      "No except Earth Genasi and Mountain dwarft",
+      "Yes. they stack",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question: "Is the Dueling fighting style intended to support a shield?",
+    picture: "",
+    answers: [
+      "Only Battle Master with Sword and Shield Maneuver",
+      "Only with Buckler shield",
+      "Yes",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question: "Is it possible to replace a known cantrip?",
+    picture: "",
+    answers: [
+      "Yes, when you reach a new level",
+      "Only a Wizard can replace a know Cantrip",
+      "No",
+    ],
+    correctAnswer: 2,
+    points: 10,
+  },
+  {
+    question: "Can Shocking Grasp spell be used with Two-Weapon Fighting?",
+    picture: "",
+    answers: [
+      "No, two-weapon fighting rule works with melee weapons",
+      "Only with dual wielder feat",
+      "Only bladesinger in Sword Coast Adventurer's Guide can make multiple spell attacks ",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question: "Can you stow a weapon as part of a move and then draw another ?",
+    picture: "",
+    answers: [
+      "Only with two-weapon fighting feat",
+      "Sure with a bonus action",
+      "No, you gat one free interaction with an object during either move or your action",
+    ],
+    correctAnswer: 2,
+    points: 10,
+  },
+  {
+    question:
+      "Can you use Extra Attack to take grapple or does grapple replace your entire action?",
+    picture: "",
+    answers: [
+      "Only with with grappler feat you can replace multiple attacks with grapple",
+      "Grapple replace one of your multiple attacks",
+      "Grapple is a special action that replace extra acttack action",
+    ],
+    correctAnswer: 1,
+    points: 10,
+  },
+  {
+    question:
+      "Can spells be cast using a higher spell slot than their original spell level?",
+    picture: "",
+    answers: [
+      "Any spell can be cast with a spell slot of its level or higher",
+      "Yes, but only with one level higher",
+      "No, only Warlock can with an Eldritch Invocation",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question: "Is Wild Shaped Druid immune to Charm Person and Hold Person?",
+    picture: "",
+    answers: [
+      "Yes",
+      "Only Circle of the Land druid is immune to Enchantment spells",
+      "No",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
+  {
+    question:
+      "If you have Spell Sniper and use Sorcerer Metamagic Distant Spell is the range quadrupled?",
+    picture: "",
+    answers: [
+      "Yes",
+      "No, these two features don't stack",
+      "Yes, but you must spend 2 sorcery points",
+    ],
+    correctAnswer: 0,
+    points: 10,
+  },
 ];
 
 mongoose
