@@ -5,6 +5,8 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const port = process.env.PORT || 4000;
+const publicDomain = process.env.PUBLIC_DOMAIN || "http://localhost:3000";
 //const session = require("express-session");
 //const MongoStore = require("connect-mongo")(session);
 require("dotenv").config();
