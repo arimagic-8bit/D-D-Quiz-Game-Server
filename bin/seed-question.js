@@ -16,8 +16,7 @@ const question = [
   {
     question:
       "Is there any alignment restriction for classes in Player Handbook",
-    picture:
-      "https://images7.memedroid.com/images/UPLOADED995/5b2492ed90ab3.jpeg",
+    picture: "https://media.giphy.com/media/gPrjkLsJ8Ap5C/giphy.gif",
     answers: [
       "Yes, Paladin must be Lawful Good, Druid must be Neutral and Assassin must be Evil",
       "No",
@@ -115,7 +114,7 @@ const question = [
   {
     question:
       "Does the second benefit of Crossbow Expert feat helps ranged spell attacks?",
-    picture: "",
+    picture: "https://media.giphy.com/media/xT5LMOJrg3F6MHdLck/giphy.gif",
     answers: [
       "Yes",
       "Only for bullet/ammo enchanted with a spell (e.g. Flame Arrows spell",
@@ -127,7 +126,7 @@ const question = [
   {
     question:
       "Does multiple instances of resistance that affect the same damage type become immunity?",
-    picture: "https://media.giphy.com/media/l2Jej14H8uQT36rLi/giphy.gif",
+    picture: "https://media.giphy.com/media/3orieOsMVSw14MqR0Y/giphy.gif",
     answers: [
       "Nope",
       "No except Earth Genasi and Mountain dwarft",
@@ -195,7 +194,7 @@ const question = [
   {
     question:
       "Can spells be cast using a higher spell slot than their original spell level?",
-    picture: "",
+    picture: "https://media.giphy.com/media/zKp4ZoVJbHHP2/giphy.gif",
     answers: [
       "Any spell can be cast with a spell slot of its level or higher",
       "Yes, but only with one level higher",
@@ -218,7 +217,7 @@ const question = [
   {
     question:
       "If you have Spell Sniper and use Sorcerer Metamagic Distant Spell is the range quadrupled?",
-    picture: "https://media.giphy.com/media/4MY6xgrmYYsCX6srMQ/giphy.gif",
+    picture: "https://media.giphy.com/media/7vRgPsxXsQBqw/giphy.gif",
     answers: [
       "Yes",
       "No, these two features don't stack",
