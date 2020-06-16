@@ -40,6 +40,14 @@ app.use(
   })
 );
 
+//CORS SETTINGS TO ALLOW CROSS-ORIGIN INTERACTION
+app.use(
+  cors({
+    credentials: true,
+    origin: (process.env.PUBLIC_DOMAIN, "https://dnd-quiz-game.herokuapp.com"),
+  })
+);
+
 // ROUTER MIDDLEWARE
 app.use("/api", apiRouter);
 //app.use("/users", usersRouter);
