@@ -10,11 +10,32 @@ Hello fellow adventurer! In this game you will know if you are an expert of the 
 
 
 
+You can play the game here: https://dnd-quiz-game.herokuapp.com/
+
+
+
+#### Backlog
+
+- User can select a language to play (ENG/SPA).
+- Add a ranking to see who has more points.
+- User can create their own quizzes.
+- Users can play other users' quizzes.
+
 ### Client/Front-end
 
+------
 
+#### React Router Routes 
+
+| Path  |  Component   |            Component Description            |
+| :---: | :----------: | :-----------------------------------------: |
+|   /   | SplashScreen |     Shows main screen when users enter.     |
+| /game |  GameScreen  |              Shows game screen              |
+| /end  |  EndScreen   | Shows the end of the quiz with final points |
 
 ### Server/Back-end  
+
+------
 
 ##### Models
 
@@ -34,8 +55,16 @@ Question model
 
 `}`
 
+#### API Endpoints (backend routes)
+
+| HTTP Method | URL  | Success Status | Error Status |          Description           |
+| :---------: | :--: | :------------: | :----------: | :----------------------------: |
+|     GET     | /api |      200       |     500      | Gets all questions and details |
+
 ### Links
 
-Back-end
+------
 
-Front-end
+[Back-end]: https://github.com/arimagic-8bit/D-D-Quiz-Game-Server
+[Front-end]: https://github.com/arimagic-8bit/D-D-Quiz-Game-Client
+
