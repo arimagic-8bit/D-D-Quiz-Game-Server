@@ -41,12 +41,28 @@ app.use(
 );
 
 //CORS SETTINGS TO ALLOW CROSS-ORIGIN INTERACTION
-app.use(
-  cors({
-    credentials: true,
-    origin: (process.env.PUBLIC_DOMAIN, "https://dnd-quiz-game.herokuapp.com"),
-  })
-);
+
+// app.use(
+//   cors({
+//     credentials: true,
+//     origin:
+//       (process.env.PUBLIC_DOMAIN,
+//       "https://dnd-quiz-game.herokuapp.com",
+//       "http://dnd-quiz-game.herokuapp.com"),
+//   })
+// );
+
+// allows cross origin resource sharing
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE");
+  res.header("Access-Control-Allow-Credentials", true);
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 // ROUTER MIDDLEWARE
 app.use("/api", apiRouter);
